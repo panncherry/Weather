@@ -6,11 +6,11 @@
 Check out the API data endpoints here >> https://openweathermap.org/current 
 
 
-## Video Walkthrough 
+## Screenshot
 
-Here's a walkthrough of implemented user stories: 
+Here's a screenshot of implemented user stories: 
 
-<img src='https://i.imgur.com/did6xqN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/H4IFB0D.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 

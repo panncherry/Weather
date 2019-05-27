@@ -24,13 +24,11 @@ class ForecastViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var currentLocationTemperature: UILabel!
     @IBOutlet weak var currentCity: UILabel!
     
-    
     @IBOutlet weak var londonView: UIView!
     @IBOutlet weak var londonWeatherIcon: UIImageView!
     @IBOutlet weak var londonTemperature: UILabel!
     @IBOutlet weak var london: UILabel!
-    
-    
+
     @IBOutlet weak var tokyoView: UIView!
     @IBOutlet weak var tokyoWeatherIcon: UIImageView!
     @IBOutlet weak var tokyoTemperature: UILabel!
@@ -118,5 +116,27 @@ class ForecastViewController: UIViewController, CLLocationManagerDelegate {
             fetchCurrentWeatherData(url: API().WEATHER_URL, parameters: params)
         }
     }
-
+    
+    
+    @IBAction func didTappedCurrentLocation(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "CurrentDeailViewController")
+        self.present(controller, animated: true, completion: nil)
+    }
+    
+    
+    @IBAction func didTappedLocation2(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "Location2DetailViewController")
+        self.present(controller, animated: true, completion: nil)
+    }
+    
+    
+    @IBAction func didTappedLocation3(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "Location3DetailViewController")
+        self.present(controller, animated: true, completion: nil)
+    }
+    
+    
 }
