@@ -10,7 +10,7 @@ Check out the API data endpoints here >> https://openweathermap.org/current
 
 Here's a screenshot of implemented user stories: 
 
-<img src='https://i.imgur.com/H4IFB0D.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/H4IFB0D.png' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
